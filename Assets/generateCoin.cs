@@ -7,8 +7,8 @@ public class generateCoin : MonoBehaviour {
 	public GameObject tree;
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating ("GenerateCoin", 2, 5);
-		InvokeRepeating ("Generatetree", 2, 5);
+		InvokeRepeating ("GenerateCoin", 3, 5);
+		InvokeRepeating ("Generatetree", 2, 8);
 	}
 	
 	// Update is called once per frame
